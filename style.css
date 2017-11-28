@@ -1,0 +1,26 @@
+
+
+ #panelLoginInterior
+{
+    align-content: center;
+    text-align: center;
+    margin-top: 3%;
+
+
+}
+
+body
+{
+  background-color: black !important;
+
+}
+
+#buttonIngresarLogin
+{
+  background-color: #004949 !important;
+}
+
+#buttonOlvideContraseña
+{
+  background-color: ##009292 !important;
+}
