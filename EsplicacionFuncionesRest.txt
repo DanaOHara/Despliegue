@@ -1,0 +1,6 @@
+1. core_calendar_get_calendar_events : dado el id del usuario retorna los eventos de su calendario
+2.core_course_get_contents : retorna los contenidos de un curso
+3.core_enrol_get_users_courses: dado el id del usuario retorna una lista de cursos en los que esta inscrito
+4.core_files_upload: sube un archivo a moodle
+5.core_user_get_users_by_id: obtiene un usurio dado su id
+6.mod_forum_get_forum_discussion_posts: Returns a list of forum posts for a discussion. 

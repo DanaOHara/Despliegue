@@ -1,13 +1,30 @@
 
 <?php
+session_start();
 
-  if(empty($_POST["email"]))
-  {
-    header("vacio.html");
-  }
-  else
-  {
-  header("indexp2.html");
-  }
+function redirigirVacio()
+{
+    header("Location: vacio.html");
+
+}
+
+function redirigirSegundaParte($userName)
+{
+    $_SESSION['userName'] = $userName;
+    header("Location: indexp2.html");
+
+}
+
+
+if($_POST['userName'] == '')
+{
+  redirigirVacio();
+}
+
+else
+{
+  redirigirSegundaParte($_POST['userName'] );
+}
+
 
 ?>
